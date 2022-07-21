@@ -11,7 +11,7 @@ router.get("/", function(req, res){
 /*
 router.get("/UserCart", function(req, res){
     //console.log("HELLOOO");
-    res.render("/UserCart");
+    res.render("users/UserCart");
 });
 
 router.get("/users/UserOrderHistory", function(req, res){
@@ -25,7 +25,7 @@ router.get("/users/UserPayment", function(req, res){
 });
 
 router.get("/UserProduct", function(req, res){
-    res.render("/users/UserProduct");
+    res.render("users/UserProduct");
 });
 
 router.get("/users/UserProfile", function(req, res){
@@ -35,7 +35,7 @@ router.get("/users/UserProfile", function(req, res){
 
 router.get("/UserReceipt", function(req, res){
     //console.log("HELLOOO");
-    res.render("UserReceipt");
+    res.render("users/UserReceipt");
 });
 */
 
