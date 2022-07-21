@@ -24,6 +24,7 @@ app.use('/image', express.static(path.resolve(__dirname, "views/image")))
 app.use('/js', express.static(path.resolve(__dirname, "views/js")))
 
 
+
 app.listen(app.get("port"), function(){
     console.log("Server started on port " + app.get("port"));
 });
