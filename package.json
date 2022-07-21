@@ -1,0 +1,25 @@
+{
+  "name": "online_pharmacy",
+  "version": "1.0.0",
+  "description": "final project itt626",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirayzd/online_pharmacy.git"
+  },
+  "author": "pairpearl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirayzd/online_pharmacy/issues"
+  },
+  "homepage": "https://github.com/mirayzd/online_pharmacy#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  }
+}
