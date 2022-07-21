@@ -2,6 +2,7 @@ var http = require('http');
 var express = require("express");
 var path = require ("path");
 var routes = require("./routes/home");
+var routes = require("./routes/UserProduct");
 var app = express();
 
 //const express = require("express");
