@@ -14,12 +14,12 @@ router.get("/UserCart", function(req, res){
     res.render("users/UserCart");
 });
 
-router.get("/users/UserOrderHistory", function(req, res){
+router.get("/UserOrderHistory", function(req, res){
     //console.log("HELLOOO");
     res.render("users/UserOrderHistory");
 });
 
-router.get("/users/UserPayment", function(req, res){
+router.get("/UserPayment", function(req, res){
     //console.log("HELLOOO");
     res.render("users/UserPayment");
 });
@@ -28,7 +28,7 @@ router.get("/UserProduct", function(req, res){
     res.render("users/UserProduct");
 });
 
-router.get("/users/UserProfile", function(req, res){
+router.get("/UserProfile", function(req, res){
     //console.log("HELLOOO");
     res.render("users/UserProfile");
 });
