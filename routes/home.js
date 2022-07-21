@@ -8,7 +8,7 @@ router.get("/", function(req, res){
 });
 
 
-/*
+
 router.get("/UserCart", function(req, res){
     //console.log("HELLOOO");
     res.render("users/UserCart");
@@ -37,7 +37,5 @@ router.get("/UserReceipt", function(req, res){
     //console.log("HELLOOO");
     res.render("users/UserReceipt");
 });
-*/
-
 
 module.exports = router;
