@@ -1,0 +1,18 @@
+{
+  "name": "online_pharmacy",
+  "version": "0.0.1",
+  "description": "Onine Pharmacy web application for project ITT626",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "paipearl",
+  "license": "MIT",
+  "dependencies": {
+    "css": "^3.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "path": "^0.12.7"
+  }
+}
