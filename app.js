@@ -1,4 +1,4 @@
-var express = require("express");
+const express = require("express");
 var path = require("path");
 var mongoose = require("mongoose");
 var bodyParser = require("body-parser");
@@ -6,14 +6,14 @@ var cookieParser = require("cookie-parser");
 var passport = require("passport");
 var session = require("express-session");
 var flash = require("connect-flash");
-//var params = require("./params/params");
+var params = require("./params/params");
 
 const dotenv = require('dotenv');
 var setUpPassport = require("./setuppassport");
 //var routes = require("./routes");
-//connectDB();
+
 var app = express();
-//mongoose.connect(params.DATABASECONNECTION, {useUnifiedTopology:true, useNewUrlParser:true, useCreateIndex:true});
+mongoose.connect(params.DATABASECONNECTION, {useUnifiedTopology:true, useNewUrlParser:true, useCreateIndex:true});
 setUpPassport();
 
 dotenv.config( { path : 'config.env'} )
